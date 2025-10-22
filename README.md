@@ -91,7 +91,6 @@ Designed to scale horizontally and vertically:
 - Local embedding service: [hf_service/hf_embedding_service.py](hf_service/hf_embedding_service.py)
 - Run helper: [scripts/run_local.ps1](scripts/run_local.ps1)
 - Server: [server.mjs](server.mjs)
-- Deployment config: [vercel.json](vercel.json), [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## Deployment
 - Build: npm run build (see [package.json](package.json))
