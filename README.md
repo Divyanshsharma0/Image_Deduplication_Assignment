@@ -92,10 +92,6 @@ Designed to scale horizontally and vertically:
 - Run helper: [scripts/run_local.ps1](scripts/run_local.ps1)
 - Server: [server.mjs](server.mjs)
 
-## Deployment
-- Build: npm run build (see [package.json](package.json))
-- Vercel: configuration in [vercel.json](vercel.json). See [DEPLOYMENT.md](DEPLOYMENT.md) for environment variables and notes.
-
 ## Contributing / Notes
 - Tune `similarityThreshold` in [config/settings.json](config/settings.json) to adjust precision/recall.
 - Check logs/ diagnostics in `logs/` for processing snapshots.
