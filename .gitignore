@@ -1,0 +1,131 @@
+/.venv/
+node_modules/
+/dist/
+/dist_client/
+.env
+.env.*
+/coverage/
+/*.log
+/.vscode/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+/dist
+/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Vercel
+.vercel
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local cache
+.cache/
+.parcel-cache/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.Python
+*.so
+
+# Python build artifacts
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# Testing
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# API Keys and secrets (important!)
+config/secrets.json
+secrets/
+*.key
+*.pem
+.env*
+!.env.example
+
+# Log files (keep directory structure but ignore log contents)
+logs/*.log
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Mac OS
+Desktop.ini

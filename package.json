@@ -1,0 +1,37 @@
+{
+  "name": "image-deduplication-clip",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-based image deduplication using CLIP embeddings",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "dev:server": "node server.mjs",
+  "dev:local": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run_local.ps1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "vite build",
+  "start": "node server.mjs"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "@google/generative-ai": "^0.2.1",
+    "sharp": "^0.32.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "keywords": ["image", "deduplication", "AI", "CLIP", "computer-vision"],
+  "author": "Your Name",
+  "license": "MIT"
+}

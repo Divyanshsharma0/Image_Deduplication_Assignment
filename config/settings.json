@@ -1,0 +1,7 @@
+{
+  "similarityThreshold": 0.88,
+  "batchSize": 32,
+  "concurrency": 6,
+  "gpuEnabled": true,
+  "fallbackEnabled": true
+}
